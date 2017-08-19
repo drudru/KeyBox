@@ -1,9 +1,9 @@
-= Installation Instructions
+# Installation Instructions
 
 Currently the system is based on the Raspbian Jessie Lite distribution. In the near future
 there will be a small image that will just unzip and have all the necessary software.
 
-== Networked Portion
+## Networked Portion
 
 Install that first onto a microSD card and hook it up to a raspberry pi.
 
@@ -33,7 +33,7 @@ There are three config files in this git repo which need to be put into place ov
 
 You need to install the following packages from the repos here on github : TODO
 
-== Standalone Portion
+## Standalone Portion
 
 At this point, you should have all the software and configuration files set-up on the device.
 The device will act as a USB HID (Keyboard, Mouse, etc.) and a network device.
