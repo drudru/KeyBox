@@ -5,8 +5,8 @@ KeyBox Project
 The KeyBox project combines a Raspberry Pi Zero, a small TFT display, and some software
 into a device that holds passwords and cryptographic keys.
 
-![](https://raw.github.com/drudru/KeyBox/master/Images/front.jpg)
-![](https://raw.github.com/drudru/KeyBox/master/Images/back.jpg)
+![](Images/front.jpg)
+![](Images/back.jpg)
 
 The will hold your passwords and allow you to play them back by emulating a USB keyboard.
 
