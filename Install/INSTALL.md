@@ -3,6 +3,10 @@
 Currently the system is based on the Raspbian Jessie Lite distribution. In the near future
 there will be a small image that will just unzip and have all the necessary software.
 
+I suggest reading through these instructions to determine your dependencies before performing any of the tasks.
+
+If you are going to do development, see the [Build Instructions](../Build/BUILD.md).
+
 ## Networked Portion
 
 Install that first onto a microSD card and hook it up to a raspberry pi.
@@ -29,9 +33,14 @@ Here is the linked bug: [Issue #1943](https://github.com/raspberrypi/linux/issue
 
 The fix is to run 'raspi-update' as root to get the latest patched kernel.
 
-There are three config files in this git repo which need to be put into place over the TODO
+The config files in this git repo directory need to be put into place to configure the kernel and other
+linux services.
+
+TODO: config details
 
 You need to install the following packages from the repos here on github : TODO
+
+TODO: binaries details
 
 ## Standalone Portion
 
