@@ -11,6 +11,7 @@
 #
 # By default this script does nothing.
 
+# Disable HDMI - save power
 /opt/vc/bin/tvservice -o
 
 # Print the IP address
