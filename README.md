@@ -29,3 +29,24 @@ If you have any questions, please open an issue.
 2017-08-17 - Just read that new RASPBIAN STRETCH LITE has been released.
 For now, I am working on a Jessie image, but I will build a new image based on Stretch.
 Also, I will upload instructions on how to build an image today.
+
+## Hardware
+
+The key to KeyBox is the fact that the Raspberry Pi 0 connects its USB hardware directly to 
+the USB ports. This allows it to emulate USB devices via USB On-The-Go.
+The Raspberry Pi 2/3 connect these to a USB hub which prevents this.
+
+* Raspberry Pi 0
+  * Probably supports Pi 0 W or Pi A+ - not tested
+* Adafruit 2.2" TFT HAT
+  * Has 4 buttons. Requires little soldering.
+* Piezo Buzzer
+* 3D Case
+  * I don't have a 3D printer or case design currently.
+  
+There will be a separate section that can go into more details about the hardware and 
+support for other platforms (BeagleBone, Arduino, etc.)
+
+
+
+
