@@ -15,6 +15,9 @@ securely on this device.
 This is the central repository for the KeyBox project.
 It will have pointers to other repos necessary to build the KeyBox distribution.
 
+* [kb-gui](https://github.com/drudru/kb-key) - presents UI on tft
+* [kb-key](https://github.com/drudru/kb-key) - sends emulated keystrokes
+
 All software should be under an MIT or similar open source license.
 
 If you have any questions, please open an issue.
