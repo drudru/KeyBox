@@ -47,6 +47,10 @@ The Raspberry Pi 2/3 connect these to a USB hub which prevents this.
 There will be a separate section that can go into more details about the hardware and 
 support for other platforms (BeagleBone, Arduino, etc.)
 
+## License
+
+I will add the license files, but everything in this repo is under a BSD or MIT license.
+
 
 
 
