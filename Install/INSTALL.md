@@ -23,6 +23,7 @@ microSD or connect a USB network device in order to download the deb packages.
 * fgetty
 * runit
 * ipsvd
+* socat
 
 Because we need to emulate more than one USB device, we need to use a composite USB setup that is not commonly
 described on the internet. Most online guides describe how to setup a device into a gadget mode, but for only one
