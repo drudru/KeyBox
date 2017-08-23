@@ -27,30 +27,48 @@ It will have pointers to other repos necessary to build the KeyBox distribution.
 * [kb-gui](https://github.com/drudru/kb-key) - presents UI on tft
 * [kb-key](https://github.com/drudru/kb-key) - sends emulated keystrokes
 
-
-
-
 [Installation Instructions](Install/INSTALL.md)
 
 [Build Instructions](Build/BUILD.md)
 
 
+
+## Required Hardware
+
+The key to KeyBox is the fact that the Raspberry Pi 0 connects its USB hardware directly to 
+the USB ports. This allows it to emulate USB devices via USB On-The-Go.
+The Raspberry Pi 2/3 connects its System-On-Chip to a USB hub which prevents this functionality.
+
+* Raspberry Pi 0
+  * Probably supports Pi 0 W or Pi A+ - not tested
+  * At this time, Raspberry Pi 0 (not W) is recommended from a security standpoint.
+* Adafruit 2.2" TFT HAT
+  * Has 4 buttons. Requires little soldering.
+* Piezo Buzzer
+* 3D Case
+  * I don't have a 3D printer or case design currently.
+  
+There will be a separate section that can go into more details about the hardware and 
+support for other platforms (BeagleBone, Arduino, etc.)
+
 ## Motivation
 
 The system is supposed to be an improvement over a typical existing installation. In a typical scenario, 
 experienced computer users (software engineers, etc.) will store their ssh keys unencrypted in a known
-location in their home directory. They will typically be using a desktop OS that has unknown security gurantees
-(Windows, Mac OS X, Linux, etc). One compromise gives the attacker access to those ssh keys. Even if
+directory location. They will typically be using a desktop OS that has unknown security gurantees
+(Windows, Mac OS X, Linux, etc). A single compromise as the logged in user gives the attacker access to those ssh keys. Even if
 some of the above were addressed, most modern desktop/laptop systems have CPUs with poorly documented 
 "management engines". These could provide an attacker unlimited access to anything on the system.
 
 Users also typically choose bad passwords. They typically do this because they are easier to memorize and therefore type.
+If a device could easily play back passwords with higher entropy, users might start using them.
 
-The solution is a 'more trusted' device that has the sold duty of managing keys and passwords. It will be much easier
-to secure a small system dedicated to these functions vs. a desktop operating system.
+The solution to the above problems is a 'more trusted' device that has the sole duty of managing keys and passwords.
+It will be much easier to secure a small system dedicated to these functions vs. a desktop operating system.
 
 The device must:
 
+* Be open source (software and hardware)
 * Be able to emulate USB devices reliably
 * Present an audio and visual alert when a request is made of the device
 * Keep all of its state on a microSD card
@@ -72,24 +90,6 @@ A Raspberry Pi 0 has an ideal mix of features:
 * The device supports inexpensive, SPI TFT displays
 
 
-
-## Hardware
-
-The key to KeyBox is the fact that the Raspberry Pi 0 connects its USB hardware directly to 
-the USB ports. This allows it to emulate USB devices via USB On-The-Go.
-The Raspberry Pi 2/3 connects its System-On-Chip to a USB hub which prevents this functionality.
-
-* Raspberry Pi 0
-  * Probably supports Pi 0 W or Pi A+ - not tested
-  * At this time, Raspberry Pi 0 (not W) is recommended from a security standpoint.
-* Adafruit 2.2" TFT HAT
-  * Has 4 buttons. Requires little soldering.
-* Piezo Buzzer
-* 3D Case
-  * I don't have a 3D printer or case design currently.
-  
-There will be a separate section that can go into more details about the hardware and 
-support for other platforms (BeagleBone, Arduino, etc.)
 
 ## License
 
