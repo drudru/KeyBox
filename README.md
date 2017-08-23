@@ -40,13 +40,14 @@ It will have pointers to other repos necessary to build the KeyBox distribution.
 The system is supposed to be an improvement over a typical existing installation. In a typical scenario, 
 experienced computer users (software engineers, etc.) will store their ssh keys unencrypted in a known
 location in their home directory. They will typically be using a desktop OS that has unknown security gurantees
-(Windows, Mac OS X, or even Linux). One compromise gives the attacker access to those ssh keys. Even if
+(Windows, Mac OS X, Linux, etc). One compromise gives the attacker access to those ssh keys. Even if
 some of the above were addressed, most modern desktop/laptop systems have CPUs with poorly documented 
 "management engines". These could provide an attacker unlimited access to anything on the system.
 
 Users also typically choose bad passwords. They typically do this because they are easier to memorize and therefore type.
 
-The solution is a 'more trusted' device that has the sold duty of managing keys
+The solution is a 'more trusted' device that has the sold duty of managing keys and passwords. It will be much easier
+to secure a small system dedicated to these functions vs. a desktop operating system.
 
 The device must:
 
@@ -60,14 +61,13 @@ A Raspberry Pi 0 has an ideal mix of features:
 
 * Relatively open design.
 * Very wide distribution.
-* The Raspberry Pi 0 can emulate USB devices in OTG mode
+* The Raspberry Pi 0 can emulate USB devices in OTG mode.
 * Lots of suppliers for add-on components.
 * No radio. The only way in our out is a wire.
 * Inexpensive (total cost can be below $50 retail)
 * Probably more trustworthy than an Intel, AMD, etc. processor.
 * Excellent Linux support by the Raspberry Pi team on github.
 * More CPU than a typical embedded system with security module (1 GHz)
-  * Future proofs the system.
 * All storage is on microSD. No internal flash to worry about.
 * The device supports inexpensive, SPI TFT displays
 
@@ -77,7 +77,7 @@ A Raspberry Pi 0 has an ideal mix of features:
 
 The key to KeyBox is the fact that the Raspberry Pi 0 connects its USB hardware directly to 
 the USB ports. This allows it to emulate USB devices via USB On-The-Go.
-The Raspberry Pi 2/3 connect these to a USB hub which prevents this.
+The Raspberry Pi 2/3 connects its System-On-Chip to a USB hub which prevents this functionality.
 
 * Raspberry Pi 0
   * Probably supports Pi 0 W or Pi A+ - not tested
