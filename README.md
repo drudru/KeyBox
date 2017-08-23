@@ -10,6 +10,10 @@ into a device that holds cryptographic keys and passwords.
 **IMPORTANT** This software is considered to be in Alpha state until there is confidence around the project.
 If you have any questions about this project, open a github issue.
 
+## Instructions
+
+[End User Instructions](EndUser/INSTRUCTIONs.md)
+
 ## Features
 
 The device will emulate and ssh-agent and allow you to keep all of your ssh keys
@@ -18,6 +22,7 @@ UI to accept or deny the request.
 
 The device will hold your passwords and allow you to play them back by emulating a USB keyboard.
 This is useful for machines that require a password upon boot to un-encrypt a hard drive.
+
 
 ## Software and Build Instructions
 
@@ -86,9 +91,9 @@ A Raspberry Pi 0 has an ideal mix of features:
 * Probably more trustworthy than an Intel, AMD, etc. processor.
 * Excellent Linux support by the Raspberry Pi team on github.
 * More CPU than a typical embedded system with security module (1 GHz)
+* Plenty of memory
 * All storage is on microSD. No internal flash to worry about.
 * The device supports inexpensive, SPI TFT displays
-
 
 
 ## License
@@ -107,16 +112,18 @@ I will add the license files, but everything in this repo is under a MIT license
  * The existing build is not an optimized linux distribution
    * It takes a long time to boot
  * Key management requires logging into the device to manipulate files
+ * On my xubuntu system, the device does not ZeroConf to an IP address or mDNS name
 
 ## Roadmap
 
 * Needs a case
 * Improved method of key management
-  * Possibly a text UI at this point
+  * A telnet TUI at this point
 * Key generation for ssh
   * Generate keys
   * Emulate vi/emacs/text to play the public key for addition to authorized_keys
 * A minimal zip file distro that just utilizes a FAT filesystem.
+* i18n
 * Re-design the kb-gui system
 * Investigate a clang build system. It would be good to compare with existing gcc system.
 * 2017-08-17 - Just read that new RASPBIAN STRETCH LITE has been released.
