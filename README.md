@@ -133,3 +133,7 @@ For now, I am working with an updated Jessie image. Need to investigate this new
 * Possibly integrating the camera module
 * Other key storage features (keys or crypto for other systems)
 
+## Thanks
+
+Thanks to Jonathan Stark for providing an awesome soldering station down in San Jose.
+
