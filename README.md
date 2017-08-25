@@ -37,7 +37,8 @@ It will have pointers to other repos necessary to build the KeyBox distribution.
 
 [Build Instructions](Build/BUILD.md)
 
-
+The software is written in C++, but with a strong leaning towards [Orthodox C++](https://gist.github.com/bkaradzic/2e39896bc7d8c34e042b).
+It is best to think of the system as an embedded system. There is also a tendency to utilize dedicated processes and executables vs. threads and monolithic applications.
 
 ## Required Hardware
 
