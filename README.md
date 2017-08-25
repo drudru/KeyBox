@@ -29,7 +29,8 @@ This is useful for machines that require a password upon boot to un-encrypt a ha
 This is the central repository for the KeyBox project.
 It will have pointers to other repos necessary to build the KeyBox distribution.
 
-* [kb-gui](https://github.com/drudru/kb-key) - presents UI on tft
+* [kb-gpio](https://github.com/drudru/kb-gpio) - manages the shared gpio resources (buttons)
+* [kb-gui](https://github.com/drudru/kb-key) - presents UI on the tft display
 * [kb-key](https://github.com/drudru/kb-key) - sends emulated keystrokes
 
 [Installation Instructions](Install/INSTALL.md)
