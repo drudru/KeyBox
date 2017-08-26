@@ -34,6 +34,7 @@ It will have pointers to other repos necessary to build the KeyBox distribution.
 * [kb-key](https://github.com/drudru/kb-key) - sends emulated keystrokes
 * [kb-req](https://github.com/drudru/kb-req) - cli app sends gui request for user approval to run command
 * [rpi-gpio](https://github.com/drudru/rpi-gpio) - low level C++ library to wrap Broadcom 2835 GPIO
+* [kb-genpass](https://github.com/drudru/kb-genpass) - simple password generator using Raspberry Pi Hardware RNG
 
 [Installation Instructions](Install/INSTALL.md)
 
