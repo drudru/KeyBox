@@ -12,7 +12,7 @@ If you have any questions about this project, open a github issue.
 
 ## Instructions
 
-[End User Instructions](EndUser/INSTRUCTIONs.md)
+[End User Instructions](EndUser/INSTRUCTIONS.md)
 
 ## Features
 
