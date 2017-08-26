@@ -32,6 +32,7 @@ It will have pointers to other repos necessary to build the KeyBox distribution.
 * [kb-gpio](https://github.com/drudru/kb-gpio) - manages the shared gpio resources (buttons)
 * [kb-gui](https://github.com/drudru/kb-key) - presents UI on the tft display
 * [kb-key](https://github.com/drudru/kb-key) - sends emulated keystrokes
+* [kb-req](https://github.com/drudru/kb-req) - cli app sends gui request for user approval to run command
 
 [Installation Instructions](Install/INSTALL.md)
 
