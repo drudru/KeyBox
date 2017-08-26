@@ -102,7 +102,7 @@ A Raspberry Pi 0 has an ideal mix of features:
 
 ## License
 
-I will add the license files, but everything in this repo is under a MIT license.
+MIT license.
 
 ## Known Issues
 
