@@ -30,7 +30,7 @@ This is the central repository for the KeyBox project.
 It will have pointers to other repos necessary to build the KeyBox distribution.
 
 * [kb-gpio](https://github.com/drudru/kb-gpio) - manages the shared gpio resources (buttons)
-* [kb-gui](https://github.com/drudru/kb-key) - presents UI on the tft display
+* [kb-gui](https://github.com/drudru/kb-gui) - presents UI on the tft display
 * [kb-key](https://github.com/drudru/kb-key) - sends emulated keystrokes
 * [kb-req](https://github.com/drudru/kb-req) - cli app sends gui request for user approval to run command
 * [rpi-gpio](https://github.com/drudru/rpi-gpio) - low level C++ library to wrap Broadcom 2835 GPIO
