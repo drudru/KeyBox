@@ -43,6 +43,8 @@ You need to install the following packages from the repos here on github : TODO
 
 TODO: binaries details
 
+TODO: runit daemon configs and setup
+
 ## Standalone Portion
 
 At this point, you should have all the software and configuration files set-up on the device.
