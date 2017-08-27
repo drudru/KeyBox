@@ -122,14 +122,18 @@ MIT license.
 ## Roadmap
 
 * Needs a case
+* Long press options in kb-gui
+  * kb-gpio needs to identify long press
 * Improved method of key management
-  * A telnet TUI at this point
+  * A write-only HTML UI
+  * Possibly a telnet TUI for browserless scenario
 * Key generation for ssh
   * Generate keys
   * Emulate vi/emacs/text to play the public key for addition to authorized_keys
 * A minimal zip file distro that just utilizes a FAT filesystem.
 * i18n
 * Re-design the kb-gui system
+* Integrate the Raspberry Pi camera for QR code reading
 * Investigate a clang build system. It would be good to compare with existing gcc system.
 * 2017-08-17 - Just read that new RASPBIAN STRETCH LITE has been released.
 For now, I am working with an updated Jessie image. Need to investigate this new release.
