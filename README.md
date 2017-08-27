@@ -7,7 +7,12 @@ into a device that holds cryptographic keys and passwords.
 
 <img src="Images/Front.jpg" width="320" height="240" /> <img src="Images/Back.jpg" width="320" height="240" />
 
-**IMPORTANT** This software is considered to be in Alpha state until there is confidence around the project.
+## Important Disclaimers
+
+* This software is considered to be in Alpha state.
+* At this point, this is not a project for beginners.
+* There are no security guarantees. It will take time to build that confidence.
+
 If you have any questions about this project, open a github issue.
 
 ## Instructions
