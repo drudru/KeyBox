@@ -25,7 +25,8 @@ and forwards the requests to the Unix domain socket for the ssh-agent process ru
 Step 1 is to get the ssh private keys on the device. For now, you can do that with the serial console.
 In the very near future, there will be a much nicer way to do this.
 
-Ok, once you have your ssh keys on the device, and added to ssh-agent, you can forward all of your ssh authentication requests to it.
+Ok, once you have your ssh keys on the device add them to ssh-agent via ssh add.
+Your device is now ready for ssh authentication requests to it.
 
 
 On the ssh-client side, point at a new location via the ssh environment variable:
@@ -49,8 +50,10 @@ Once you do that, all of your ssh requests will forward to the device to be conf
 Test it out. You should hear the piezo make some sound and it should show a confirmation screen.
 If you don't answer the request, it will time out automatically in 30 seconds.
 
+If you run into trouble, use the '-v' flag on your ssh command to see where things are going wrong.
 
-Congratulations, your ssh-keys are now more secure because they are not on your computer.
+
+If all goes well, then congratulations. Your ssh-keys are now more secure because they are not on your desktop computer.
 
 
 
