@@ -5,6 +5,7 @@ Instructions
 ## Passwords
 
 This document is going to need a lot of work, but for right now, the GUI on the device should be self explanatory.
+The device can emulate keystrokes for any file in the /boot/KeyBox/Passwords directory.
 
 ## Serial Console
 
