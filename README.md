@@ -7,6 +7,12 @@ into a device that holds cryptographic keys and passwords.
 
 <img src="Images/Front.jpg" width="320" height="240" /> <img src="Images/Back.jpg" width="320" height="240" />
 
+
+## News / Updates
+
+2017-08-28 - I've been using the device for a week and got all the code up on github.
+I will now work on the next big milestone. I will build a tiny distro for download that has everything configured and installed.
+
 ## Important Disclaimers
 
 * This software is considered to be in Alpha state.
