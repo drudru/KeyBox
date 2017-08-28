@@ -21,12 +21,12 @@ If you have any questions about this project, open a github issue.
 
 ## Features
 
-The device will emulate and ssh-agent and allow you to keep all of your ssh keys
-securely on this device. When the remote machine asks to authenticate, the user is presented with a 
-UI to accept or deny the request.
+The device runs an ssh-agent. This allows you to keep all of your ssh keys
+securely on the Raspberry Pi. In addtion, when an authentication request comes in,
+your are presented with UI to accept or deny the request.
 
-The device will hold your passwords and allow you to play them back by emulating a USB keyboard.
-This is useful for machines that require a password upon boot to un-encrypt a hard drive.
+The device will also hold your passwords and allow you to play them back by emulating a USB keyboard.
+This is useful for machines that require a password upon boot to decrypt a hard drive.
 
 
 ## Software and Build Instructions
