@@ -10,12 +10,7 @@ into a device that holds cryptographic keys and passwords.
 
 ## News / Updates
 
-2017-09-07 - I missed my internal goal for the distro, but I've made great progress there.
-I also added a quick link in the menu for a password generator. It generates 8 characters at a time
-and sends them out as keypresses. The distro should land next week.
-
-2017-08-28 - I've been using the device for a week and got all the code up on github.
-I will now work on the next big milestone. I will build a tiny distro for download that has everything configured and installed.
+2017-09-11 - Distro now live in the releases section! Only 36 megabytes.
 
 ## Important Disclaimers
 
@@ -34,8 +29,8 @@ your are presented with UI to accept or deny the request.
 The device will also hold your passwords and allow you to play them back by emulating a USB keyboard.
 This is useful for machines that require a password upon boot to decrypt a hard drive.
 
-The device can generate secure passwords. It uses the Raspberry Pi's secure hardware random number generator.
-It sends the result out as keypresses. It uses the set of upper case characters and base 10 digits.
+The device can generate secure passwords and entropy. It uses the Raspberry Pi's secure hardware random number generator.
+It sends the result out as keypresses. It uses the set of upper case characters and base 10 digits (base36), or hexadecimal.
 
 ## End User Instructions
 
