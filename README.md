@@ -10,7 +10,7 @@ into a device that holds cryptographic keys and passwords.
 
 ## News / Updates
 
-2017-09-11 - Distro now live in the releases section! Only 36 megabytes.
+2017-09-11 - KeyBox v0.1.0 distro now live in the [releases](https://github.com/drudru/KeyBox/releases) section. Unzip and boot at only 36 megabytes!
 
 ## Important Disclaimers
 
