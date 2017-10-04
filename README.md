@@ -10,6 +10,8 @@ into a device that holds cryptographic keys and passwords.
 
 ## News / Updates
 
+2017-10-04 - I have received some new hardware that uses an OLED display. I'm working on a new release for that. There will also be some additional features added.
+
 2017-09-11 - KeyBox v0.1.0 distro now live in the [releases](https://github.com/drudru/KeyBox/releases) section. Unzip and boot at only 36 megabytes!
 
 ## Important Disclaimers
