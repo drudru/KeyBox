@@ -6,9 +6,10 @@ The KeyBox project combines a Raspberry Pi Zero, a small TFT display, and some s
 into a device that holds cryptographic keys and passwords.
 
 <img src="Images/Front.jpg" width="320" height="240" /> <img src="Images/Back.jpg" width="320" height="240" />
-
+<img src="Images/IMG_5475.jpg" width="320" height="240" />
 
 ## News / Updates
+2017-10-27 - New distro for N-O-D-E prototype released for testing.
 
 2017-10-04 - I have received some new hardware that uses an OLED display. I'm working on a new release for that. There will also be some additional features added.
 
