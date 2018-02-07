@@ -40,7 +40,7 @@ Next, get the IP address of the device. You can just 'ping keybox.local' to do t
 Then in another window, use socat to listen on that Unix domain socket and forward packets to the device.
 
 ```sh
-rm /tmp/ssh-agent ; socat -d UNIX-LISTEN:/tmp/ssh-agent,fork TCP4:169.254.158.207:2222
+rm -f /tmp/ssh-agent ; socat -d UNIX-LISTEN:/tmp/ssh-agent,fork TCP4:169.254.158.207:2222
 ```
 
 Leave this running. (Note: you can get socat for OS X via Homebrew).
