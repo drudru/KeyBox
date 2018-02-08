@@ -75,9 +75,10 @@ $ fips set config xpi0-ninja-debug
 
 Here are my current settings.
 
-$ fips list settings
 
 ```
+
+$ fips list settings
 === settings:
   config: xpi0-ninja-debug
   target: None (default value)
