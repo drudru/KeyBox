@@ -77,12 +77,13 @@ Here are my current settings.
 
 $ fips list settings
 
+```
 === settings:
   config: xpi0-ninja-debug
   target: None (default value)
     jobs: 3 (default value)
   ccache: off
-
+```
 
 Once that is complete you build in each directory by typing: 'fips build'.
 
